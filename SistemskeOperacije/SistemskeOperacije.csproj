@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3CD1E6C-2390-4A76-98D7-E3D565C26902}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemskeOperacije</RootNamespace>
+    <AssemblyName>SistemskeOperacije</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SOAutomobil\DodajAutomobilSO.cs" />
+    <Compile Include="SOAutomobil\IzmeniStanjeAutomobilaSO.cs" />
+    <Compile Include="SOAutomobil\UkloniAutomobilSO.cs" />
+    <Compile Include="SOAutomobil\VratiAutomobileSaOdredjenimParametrimaSO.cs" />
+    <Compile Include="SOAutomobil\VratiSveAutomobileSO.cs" />
+    <Compile Include="SOIznajmljivanje\DodajIznajmljivanjeSO.cs" />
+    <Compile Include="SOKlijent\DodajAdminaSO.cs" />
+    <Compile Include="SOKlijent\DodajClanaSO.cs" />
+    <Compile Include="SOKlijent\PrijaviSeSO.cs" />
+    <Compile Include="SOKlijent\VratiClanoveSaPocetnimSlovimaSO.cs" />
+    <Compile Include="SOKlijent\VratiKlijentIDSO.cs" />
+    <Compile Include="SOKlijent\VratiSveClanoveSO.cs" />
+    <Compile Include="SOOcena\DodajOcenuSO.cs" />
+    <Compile Include="SystemOperationBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BorkerBP\BorkerBP.csproj">
+      <Project>{AE563730-5A94-4DF7-BD0F-104BB1E71766}</Project>
+      <Name>BorkerBP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domen\Domen.csproj">
+      <Project>{BBE96D49-15C4-404F-8401-1034044C6160}</Project>
+      <Name>Domen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Storage\Storage.csproj">
+      <Project>{00D2EA0B-1B36-477C-8D56-1D31E49209C3}</Project>
+      <Name>Storage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\danko\Desktop\PS Seminarski\Rent-A-Car\Domen\bin\Debug\Domen.dll
+C:\Users\danko\Desktop\PS Seminarski\Rent-A-Car\Domen\bin\Debug\Domen.pdb
+C:\Users\danko\Desktop\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.csprojAssemblyReference.cache
+C:\Users\danko\Desktop\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.csproj.CoreCompileInputs.cache
+C:\Users\danko\Desktop\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.dll
+C:\Users\danko\Desktop\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.pdb
+C:\Users\danko\Desktop\PS\PS Seminarski\Rent-A-Car\Domen\bin\Debug\Domen.dll
+C:\Users\danko\Desktop\PS\PS Seminarski\Rent-A-Car\Domen\bin\Debug\Domen.pdb
+C:\Users\danko\Desktop\PS\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.csprojAssemblyReference.cache
+C:\Users\danko\Desktop\PS\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.csproj.CoreCompileInputs.cache
+C:\Users\danko\Desktop\PS\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.dll
+C:\Users\danko\Desktop\PS\PS Seminarski\Rent-A-Car\Domen\obj\Debug\Domen.pdb
